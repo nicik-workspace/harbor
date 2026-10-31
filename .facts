@@ -1738,6 +1738,10 @@
 - The Ollama guide documents how to pin an AMD-specific published ROCm tag, explains why ollama.version does not control that tag, and gives the default restore command. @spec @issue-178 @implemented
 - The external-Ollama guide distinguishes cross-compose wiring from independent services and gives the Harbor env commands needed for Boost model discovery and WebUI direct Ollama access when the ollama handle is omitted. @spec @issue-168 @implemented
 
+## translations
+- Bifrost Polish translation preserves the English source and all technical identifiers and examples @spec @issue-231 @implemented
+- Bifrost Polish examples preserve technical commands and identifiers while translating explanatory comments @spec @issue-231 @implemented
+
 # ci
 - label: CI includes GitHub Actions workflows for app-release bench-docker boost-docker lint and test
   command: test -f .github/workflows/test.yml && test -f .github/workflows/lint.yml && test -f .github/workflows/boost-docker.yml
